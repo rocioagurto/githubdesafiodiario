@@ -1,0 +1,53 @@
+
+.contenedor .contenedor__nav {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contenedor__nav {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    border-bottom: 1px solid gray;
+}
+  
+
+.nav__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    padding-left: 2rem;
+    text-align: left;
+    align-items: center;
+}
+
+
+.nav__items{
+    
+    width: 840px;
+    text-align: right;
+    float: right;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+
+.item__li {
+    list-style:none;
+    display: inline;
+}
+
+
+.item__a1 {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.item__a2 {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input__menu {
+    border-radius: 30px;
+}

@@ -1,0 +1,46 @@
+.contenedor .contenedor__main {
+   grid-column: 1/5;
+   text-align: center;  
+}
+
+
+.main__noticia {
+    width: 23rem;
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 2rem,4rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.noticia__titulo {
+    text-align: left;
+    font-size: $medium;
+    padding-bottom: 1rem;
+}
+
+
+
+
+.noticia__cuerpo {
+    width: 19rem;
+    align-items: center;
+}
+
+
+.cuerpo__img {
+    width: 23rem;
+    height: 33rem;
+  
+
+    
+}
+
+
+.cuerpo__parrafo{
+    padding: 5px 10px;
+    text-align: left;
+    font-size: $small;
+}
